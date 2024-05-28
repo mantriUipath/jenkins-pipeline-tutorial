@@ -1,4 +1,4 @@
-nishantpipeline {
+pipeline {
     agent any 
     stages {
         stage('Static Analysis') {
@@ -13,7 +13,7 @@ nishantpipeline {
         }
         stage('Security Check') {
             steps {
-                echo 'Run the security check against application' 
+                echo 'Run the security check against the application' 
             }
         }
         stage('Run Unit Tests') {
