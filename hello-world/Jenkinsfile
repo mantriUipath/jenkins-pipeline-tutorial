@@ -13,7 +13,7 @@ nishantpipeline {
         }
         stage('Security Check') {
             steps {
-                echo 'Run the security check against the application, hello nishnat' 
+                echo 'Run the security check against the application' 
             }
         }
         stage('Run Unit Tests') {
